@@ -1,0 +1,634 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         MS_JK_FF.lvs.report
+LAYOUT NAME:              /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/svdb/MS_JK_FF.sp ('MS_JK_FF')
+SOURCE NAME:              /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/MS_JK_FF.src.net ('MS_JK_FF')
+RULE FILE:                /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/_G-DF-LOGIC_MIXED_MODE65N-1P8M1T0F1U-LL_MIM_LOW_K_TOP_METAL32.5K-XRC-LPE-1.0_P2-Typ.tec_
+RULE FILE TITLE:          UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+CREATION TIME:            Fri Sep 17 20:36:02 2021
+CURRENT DIRECTORY:        /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex
+USER NAME:                een212023
+CALIBRE VERSION:          v2020.4_34.17    Tue Dec 1 16:11:11 PST 2020
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      MS_JK_FF                      MS_JK_FF
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VDD?"
+   LVS GROUND NAME                        "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            NO
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             YES
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     1000
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      A B C D S
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  C(MIMCAPS_20F_MM)  PARALLEL NO
+   LVS REDUCE  C(NCAP_12_LL)  PARALLEL NO
+   LVS REDUCE  C(PCAP_12_LL)  PARALLEL NO
+   LVS REDUCE  C(NCAP_25_LL)  PARALLEL NO
+   LVS REDUCE  C(PCAP_25_LL)  PARALLEL NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  n_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  n_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  n_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  n_12_llrvtrf  con con 0
+   TRACE PROPERTY  p_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  p_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  p_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  p_12_llrvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_llrvtrf  con con 0
+   TRACE PROPERTY  n_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  n_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  n_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  n_12_llhvtrf  con con 0
+   TRACE PROPERTY  p_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  p_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  p_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  p_12_llhvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_llhvtrf  con con 0
+   TRACE PROPERTY  n_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  n_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  n_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  n_12_lllvtrf  con con 0
+   TRACE PROPERTY  p_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  p_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  p_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  p_12_lllvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_lllvtrf  con con 0
+   TRACE PROPERTY  n_25_llrf  lf lf 3
+   TRACE PROPERTY  n_25_llrf  wf wf 3
+   TRACE PROPERTY  n_25_llrf  nf nf 0
+   TRACE PROPERTY  n_25_llrf  con con 0
+   TRACE PROPERTY  p_25_llrf  lf lf 3
+   TRACE PROPERTY  p_25_llrf  wf wf 3
+   TRACE PROPERTY  p_25_llrf  nf nf 0
+   TRACE PROPERTY  p_25_llrf  con con 0
+   TRACE PROPERTY  n_bpw_25_llrf  lf lf 3
+   TRACE PROPERTY  n_bpw_25_llrf  wf wf 3
+   TRACE PROPERTY  n_bpw_25_llrf  nf nf 0
+   TRACE PROPERTY  n_bpw_25_llrf  con con 0
+   TRACE PROPERTY  r(rsnpo_efuse)  r r 3
+   TRACE PROPERTY  r(rsppo_efuse)  r r 3
+   TRACE PROPERTY  rnnpo_nw_llrf  r r 3
+   TRACE PROPERTY  rnnpo_nw_llrf  l l 3
+   TRACE PROPERTY  rnnpo_nw_llrf  w w 3
+   TRACE PROPERTY  rnnpo_llrf  r r 3
+   TRACE PROPERTY  rnnpo_llrf  l l 3
+   TRACE PROPERTY  rnnpo_llrf  w w 3
+   TRACE PROPERTY  rnppo_nw_llrf  r r 3
+   TRACE PROPERTY  rnppo_nw_llrf  l l 3
+   TRACE PROPERTY  rnppo_nw_llrf  w w 3
+   TRACE PROPERTY  rnppo_llrf  r r 3
+   TRACE PROPERTY  rnppo_llrf  l l 3
+   TRACE PROPERTY  rnppo_llrf  w w 3
+   TRACE PROPERTY  rnhr_nw_llrf  r r 3
+   TRACE PROPERTY  rnhr_nw_llrf  l l 3
+   TRACE PROPERTY  rnhr_nw_llrf  w w 3
+   TRACE PROPERTY  rnhr_llrf  r r 3
+   TRACE PROPERTY  rnhr_llrf  l l 3
+   TRACE PROPERTY  rnhr_llrf  w w 3
+   TRACE PROPERTY  r(fuse)  r r 3
+   TRACE PROPERTY  r(ral)  r r 3
+   TRACE PROPERTY  varmis_12_llrf  lf lf 3
+   TRACE PROPERTY  varmis_12_llrf  wf wf 3
+   TRACE PROPERTY  varmis_12_llrf  nf nf 0
+   TRACE PROPERTY  varmis_12_llrf  array array 0
+   TRACE PROPERTY  varmis_25_llrf  lf lf 3
+   TRACE PROPERTY  varmis_25_llrf  wf wf 3
+   TRACE PROPERTY  varmis_25_llrf  nf nf 0
+   TRACE PROPERTY  varmis_25_llrf  array array 0
+   TRACE PROPERTY  vardiop_llrf  l l 3
+   TRACE PROPERTY  vardiop_llrf  wp wp 3
+   TRACE PROPERTY  vardiop_llrf  nf nf 0
+   TRACE PROPERTY  vardiop_llrf  c c 3
+   TRACE PROPERTY  d(dionw_ll)  a a 3
+   TRACE PROPERTY  d(dionw_ll)  p p 3
+   TRACE PROPERTY  d(diodnw_ll)  a a 3
+   TRACE PROPERTY  d(diodnw_ll)  p p 3
+   TRACE PROPERTY  d(diodp_ll)  a a 3
+   TRACE PROPERTY  d(diodp_ll)  p p 3
+   TRACE PROPERTY  momcaps_sy_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_sy_mmkf  l l 3
+   TRACE PROPERTY  momcaps_sy_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_sy_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_as_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_as_mmkf  l l 3
+   TRACE PROPERTY  momcaps_as_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_as_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  mh mh 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  l l 3
+   TRACE PROPERTY  momcaps_asmesh_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  mh mh 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  l l 3
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  sh sh 0
+   TRACE PROPERTY  l_slcr30k_rfvil  s s 3
+   TRACE PROPERTY  l_slcr30k_rfvil  w w 3
+   TRACE PROPERTY  l_slcr30k_rfvil  od od 3
+   TRACE PROPERTY  l_slcr30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_syct30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_syct30k_rfvil  s s 3
+   TRACE PROPERTY  l_syct30k_rfvil  w w 3
+   TRACE PROPERTY  l_syct30k_rfvil  od od 3
+   TRACE PROPERTY  l_sy30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_sy30k_rfvil  s s 3
+   TRACE PROPERTY  l_sy30k_rfvil  w w 3
+   TRACE PROPERTY  l_sy30k_rfvil  od od 3
+   TRACE PROPERTY  l_sqsk_rfvil  nt nt 0
+   TRACE PROPERTY  l_sqsk_rfvil  s s 3
+   TRACE PROPERTY  l_sqsk_rfvil  w w 3
+   TRACE PROPERTY  l_sqsk_rfvil  od od 3
+   TRACE PROPERTY  l_sqsk_rfvil  ns ns 0
+   TRACE PROPERTY  l_sqsk_rfvil  bm bm 0
+   TRACE PROPERTY  mimcaps_20f_nwell_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_nwell_rfkf  w w 3
+   TRACE PROPERTY  mimcaps_20f_psub_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_psub_rfkf  w w 3
+   TRACE PROPERTY  mimcaps_20f_m1_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_m1_rfkf  w w 3
+   TRACE PROPERTY  c(mimcaps_20f_mm)  c c 3
+   TRACE PROPERTY  l_sq_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sq_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sq_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sq_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctin_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctin_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctin_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctin_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctout_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctout_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  od od 3
+   TRACE PROPERTY  l_occtout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_occtout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_occtout_trans_rfvil  od od 3
+   TRACE PROPERTY  pad_rf  index_layer index_layer 0
+   TRACE PROPERTY  pad_rf  index_thick index_thick 0
+   TRACE PROPERTY  pad_rf  index_pad index_pad 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         MS_JK_FF
+SOURCE CELL NAME:         MS_JK_FF
+
+--------------------------------------------------------------------------------------------------------------
+
+NUMBERS OF OBJECTS
+------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              7         7
+
+ Nets:              24        24
+
+ Instances:         19        19         MN (4 pins)
+                    19        19         MP (4 pins)
+                ------    ------
+ Total Inst:        38        38
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net GND                                                   GND
+       --- 29 Connections On This Net ---                        --- 29 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       M5(7.430,0.955)  MN(N_12_LLRVT)                           XI1/MNM2  MN(N_12_LLRVT)
+         g: Q                                                      g: Q
+         s: 25                                                     d: XI1/net20
+         b: GND                                                    b: GND
+         d: 9                                                      ** net22 **
+         ** GND **                                                 s: GND
+
+       M3(6.475,0.955)  MN(N_12_LLRVT)                           XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: 24                                                     s: XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** 9 **                                                   d: net22
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         Q_: Q_                                                    Q_: Q_
+         K: K                                                      K: K
+         Q: Q                                                      Q: Q
+         CLK: CLK                                                  CLK: CLK
+         J: J                                                      J: J
+
+       X31/M1(17.700,0.955)  MN(N_12_LLRVT)                      XI5/MNM1  MN(N_12_LLRVT)
+         g: 7                                                      g: net15
+         s: X31/8                                                  s: XI5/net17
+         d: 11                                                     d: net20
+         b: GND                                                    b: GND
+
+       X31/M0(17.440,0.955)  MN(N_12_LLRVT)                      XI5/MNM0  MN(N_12_LLRVT)
+         g: 20                                                     g: net19
+         s: GND                                                    s: GND
+         d: X31/8                                                  d: XI5/net17
+         b: GND                                                    b: GND
+
+       X30/M1(15.345,0.955)  MN(N_12_LLRVT)                      XI4/MNM1  MN(N_12_LLRVT)
+         g: 20                                                     g: net19
+         s: X30/8                                                  s: XI4/net17
+         d: 10                                                     d: net21
+         b: GND                                                    b: GND
+
+       X30/M0(15.085,0.955)  MN(N_12_LLRVT)                      XI4/MNM0  MN(N_12_LLRVT)
+         g: 8                                                      g: net14
+         s: GND                                                    s: GND
+         d: X30/8                                                  d: XI4/net17
+         b: GND                                                    b: GND
+
+       M14(21.370,0.955)  MN(N_12_LLRVT)                         XI11/XI1/MNM1  MN(N_12_LLRVT)
+         g: 11                                                     g: net20
+         s: 29                                                     s: XI11/XI1/net17
+         d: Q_                                                     d: Q_
+         b: GND                                                    b: GND
+
+       M13(21.110,0.955)  MN(N_12_LLRVT)                         XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: Q                                                      g: Q
+         s: GND                                                    s: GND
+         d: 29                                                     d: XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       M12(20.115,0.955)  MN(N_12_LLRVT)                         XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: Q_                                                     g: Q_
+         s: 28                                                     s: XI11/XI0/net17
+         d: Q                                                      d: Q
+         b: GND                                                    b: GND
+
+       M11(19.855,0.955)  MN(N_12_LLRVT)                         XI11/XI0/MNM0  MN(N_12_LLRVT)
+         g: 10                                                     g: net21
+         s: GND                                                    s: GND
+         d: 28                                                     d: XI11/XI0/net17
+         b: GND                                                    b: GND
+
+       M10(13.005,0.955)  MN(N_12_LLRVT)                         XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: 20                                                     d: net19
+         b: GND                                                    b: GND
+
+       M9(10.735,0.955)  MN(N_12_LLRVT)                          XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: 9                                                      g: net22
+         s: 27                                                     s: XI10/XI1/net17
+         d: 7                                                      d: net15
+         b: GND                                                    b: GND
+
+       M8(10.475,0.955)  MN(N_12_LLRVT)                          XI10/XI1/MNM0  MN(N_12_LLRVT)
+         g: 8                                                      g: net14
+         s: GND                                                    s: GND
+         d: 27                                                     d: XI10/XI1/net17
+         b: GND                                                    b: GND
+
+       M7(9.480,0.955)  MN(N_12_LLRVT)                           XI10/XI0/MNM1  MN(N_12_LLRVT)
+         g: 7                                                      g: net15
+         s: 26                                                     s: XI10/XI0/net17
+         d: 8                                                      d: net14
+         b: GND                                                    b: GND
+
+       M6(9.220,0.955)  MN(N_12_LLRVT)                           XI10/XI0/MNM0  MN(N_12_LLRVT)
+         g: 6                                                      g: net23
+         s: GND                                                    s: GND
+         d: 26                                                     d: XI10/XI0/net17
+         b: GND                                                    b: GND
+
+       M4(6.735,0.955)  MN(N_12_LLRVT)                           XI1/MNM1  MN(N_12_LLRVT)
+         g: K                                                      g: K
+         s: 24                                                     d: XI1/net21
+         d: 25                                                     s: XI1/net20
+         b: GND                                                    b: GND
+
+       M2(4.975,0.955)  MN(N_12_LLRVT)                           XI0/MNM0  MN(N_12_LLRVT)
+         g: Q_                                                     g: Q_
+         s: 23                                                     s: XI0/net21
+         d: 6                                                      d: net23
+         b: GND                                                    b: GND
+
+       M1(4.280,0.955)  MN(N_12_LLRVT)                           XI0/MNM1  MN(N_12_LLRVT)
+         g: J                                                      g: J
+         s: 22                                                     s: XI0/net20
+         d: 23                                                     d: XI0/net21
+         b: GND                                                    b: GND
+
+       M0(4.020,0.955)  MN(N_12_LLRVT)                           XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: 22                                                     d: XI0/net20
+         b: GND                                                    b: GND
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 9                                                     net22
+       --- 6 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       M5(7.430,0.955)  MN(N_12_LLRVT)                           XI1/MNM2  MN(N_12_LLRVT)
+         g: Q                                                      g: Q
+         s: 25                                                     d: XI1/net20
+         b: GND                                                    b: GND
+         d: 9                                                      ** net22 **
+         ** GND **                                                 s: GND
+
+       M3(6.475,0.955)  MN(N_12_LLRVT)                           XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: 24                                                     s: XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** 9 **                                                   d: net22
+
+
+       --- Correct Devices On This Net ---
+
+       M24(10.735,1.575)  MP(P_12_LLRVT)                         XI10/XI1/MPM1  MP(P_12_LLRVT)
+         g: 9                                                      g: net22
+         s: VDD                                                    s: VDD
+         d: 7                                                      d: net15
+         b: VDD                                                    b: VDD
+
+       M20(7.430,1.465)  MP(P_12_LLRVT)                          XI1/MPM2  MP(P_12_LLRVT)
+         g: Q                                                      g: Q
+         s: VDD                                                    s: VDD
+         d: 9                                                      d: net22
+         b: VDD                                                    b: VDD
+
+       M19(6.735,1.465)  MP(P_12_LLRVT)                          XI1/MPM1  MP(P_12_LLRVT)
+         g: K                                                      g: K
+         s: VDD                                                    s: VDD
+         d: 9                                                      d: net22
+         b: VDD                                                    b: VDD
+
+       M18(6.475,1.465)  MP(P_12_LLRVT)                          XI1/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: 9                                                      d: net22
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       M9(10.735,0.955)  MN(N_12_LLRVT)                          XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: 9                                                      g: net22
+         s: 27                                                     s: XI10/XI1/net17
+         d: 7                                                      d: net15
+         b: GND                                                    b: GND
+
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               7          7            0            0
+
+   Nets:               24         24            0            0
+
+   Instances:          19         19            0            0    MN(N_12_LLRVT)
+                       19         19            0            0    MP(P_12_LLRVT)
+                  -------    -------    ---------    ---------
+   Total Inst:         38         38            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GND CLK J Q_ K Q
+
+
+o Voltage Names Matched by Wildcard:
+
+   Power Names from Layout:
+
+                 VDD
+
+   Ground Names from Layout:
+
+                 GND
+
+   Power Names from Source:
+
+                 VDD
+
+   Ground Names from Source:
+
+                 GND
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       M3(6.475,0.955)  MN(N_12_LLRVT)                           XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: 24                                                     s: XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** 9 **                                                   d: net22
+
+--------------------------------------------------------------------------------------------------------------
+
+       M5(7.430,0.955)  MN(N_12_LLRVT)                           XI1/MNM2  MN(N_12_LLRVT)
+         g: Q                                                      g: Q
+         s: 25                                                     d: XI1/net20
+         b: GND                                                    b: GND
+         d: 9                                                      ** net22 **
+         ** GND **                                                 s: GND
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      1 sec
+Total Elapsed Time:  1 sec

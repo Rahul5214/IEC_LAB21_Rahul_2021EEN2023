@@ -1,0 +1,236 @@
+INV 1000
+WRONG_NTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check NTAP WITH WRONG TEXT ?VSS? ?GND? EXCEPT DIODE,BJT,RSNWELL,NCAP and Varactor devices
+WRONG_PTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check PTAP WITH WRONG TEXT ?VDD? ?VCC? EXCEPT DIODE and BJT
+WRONG_TTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check TTAP WITH WRONG TEXT ?VDD? ?VCC? EXCEPT DIODE and BJT
+WRONG_FLOATING_NTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check NTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE,BJT,RSNWELL,NCAP and Varactor devices
+WRONG_FLOATING_PTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check PTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_FLOATING_TTAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check TTAP WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE and BJT
+WRONG_FLOATING_WEL
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check WEL WITHOUT TEXT ?VDD? ?VCC? ?VSS? ?GND? EXCEPT DIODE,BJT,RSNWELL,NCAP and Varactor devices
+PATHCHK_GND
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+To check nets with a path to ground not power
+PATHCHK_PWR
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+To check nets with a path to power not ground
+PATHCHK_NPWRGND
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+To check nets with no path to power and ground
+PATHCHK_NLABELED
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+To check nets with no path to any labeled net
+WRONG_GR_MOMCAP_MESH1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP_MESH2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP_MESH3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP_MESH4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP_MESH5
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP_MESH6
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_FLOATING_GR_MOMCAP_MESH1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP_MESH2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP_MESH3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP_MESH4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP_MESH5
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP_MESH6
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_MESH WITHOUT TEXT ?VSS? ?GND? 
+WRONG_GR_MOMCAP1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP5
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_GR_MOMCAP6
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_FLOATING_GR_MOMCAP1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP5
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_GR_MOMCAP6
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP WITHOUT TEXT ?VSS? ?GND? 
+WRONG_SHIELD_MOMCAP_P
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_SHIELD_MOMCAP1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_SHIELD_MOMCAP2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_SHIELD_MOMCAP3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_SHIELD_MOMCAP4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_FLOATING_SHIELD_MOMCAP_P
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_SHIELD_MOMCAP1
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_SHIELD_MOMCAP2
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_SHIELD_MOMCAP3
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITHOUT TEXT ?VSS? ?GND? 
+WRONG_FLOATING_SHIELD_MOMCAP4
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MOMCAP_SHIELD WITHOUT TEXT ?VSS? ?GND? 
+WRONG_MIMCAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MIMCAP WITH WRONG TEXT  ?VDD? ?VCC?
+WRONG_FLOATING_MIMCAP
+0 0 3 Sep 17 20:20:02 2021                                                      
+Rule File Pathname: /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/lvs/_G-DF-LOGIC_MIXED_MODE65N-LL_LOW_K_CALIBRE-LVS-1.6-P4.txt_
+Rule File Title: UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Check MIMCAP WITHOUT TEXT ?VSS? ?GND? 

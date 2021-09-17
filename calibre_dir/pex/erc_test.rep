@@ -1,0 +1,264 @@
+
+
+==================================================================================
+=== CALIBRE::ERC-H SUMMARY REPORT
+===
+Execution Date/Time:          Fri Sep 17 20:45:57 2021
+Calibre Version:              v2020.4_34.17    Tue Dec 1 16:11:11 PST 2020
+Rule File Pathname:           /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/_G-DF-LOGIC_MIXED_MODE65N-1P8M1T0F1U-LL_MIM_LOW_K_TOP_METAL32.5K-XRC-LPE-1.0_P2-Typ.tec_
+Rule File Title:              UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+Layout System:                GDSII
+Layout Path(s):               mod_5_counter.calibre.db
+Layout Primary Cell:          mod_5_counter
+Current Directory:            /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex
+User Name:                    een212023
+Maximum Results/ERC Check:    1000
+Maximum ERC Result Vertices:  4096
+ERC Results Database:         calibre_erc.db (ASCII)
+Layout Depth:                 ALL
+Text Depth:                   PRIMARY
+Summary Report File:          erc_test.rep (REPLACE)
+Geometry Flagging:            ACUTE = NO  SKEW = NO  ANGLED = NO  OFFGRID = NO
+                              NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:              
+CheckText Mapping:            COMMENT TEXT + RULE FILE INFORMATION
+Layers:                       MEMORY-BASED
+Keep Empty Checks:            YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+There is no data for layout net name ?VCC?.
+There is no data for layout net name ?VSS?.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER PO1 .............. TOTAL Original Geometry Count = 59  (179)
+LAYER DIFF ............. TOTAL Original Geometry Count = 40  (120)
+LAYER RFSYMBOL ......... TOTAL Original Geometry Count = 0   (0)
+LAYER M6DMBK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M7DMBK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER MMCBP ............ TOTAL Original Geometry Count = 0   (0)
+LAYER MMCTP ............ TOTAL Original Geometry Count = 0   (0)
+LAYER WLSRAMMK ......... TOTAL Original Geometry Count = 0   (0)
+LAYER SRAMMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER RF1_M ............ TOTAL Original Geometry Count = 0   (0)
+LAYER DP_1 ............. TOTAL Original Geometry Count = 0   (0)
+LAYER SP_17 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SP_12 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER UDMK ............. TOTAL Original Geometry Count = 0   (0)
+LAYER ODMK ............. TOTAL Original Geometry Count = 0   (0)
+LAYER PSYMBOL .......... TOTAL Original Geometry Count = 0   (0)
+LAYER RSYMBOL .......... TOTAL Original Geometry Count = 0   (0)
+LAYER NWR .............. TOTAL Original Geometry Count = 0   (0)
+LAYER CONTEBK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER EFUSEMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER MISIMPBK ......... TOTAL Original Geometry Count = 0   (0)
+LAYER NATIVE ........... TOTAL Original Geometry Count = 0   (0)
+LAYER DIMPBK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER BIPOLAR .......... TOTAL Original Geometry Count = 0   (0)
+LAYER SAB .............. TOTAL Original Geometry Count = 0   (0)
+LAYER LL_HVT ........... TOTAL Original Geometry Count = 0   (0)
+LAYER PPLUS ............ TOTAL Original Geometry Count = 14  (44)
+LAYER TG ............... TOTAL Original Geometry Count = 0   (0)
+LAYER MR ............... TOTAL Original Geometry Count = 0   (0)
+LAYER HR ............... TOTAL Original Geometry Count = 0   (0)
+LAYER NWEL ............. TOTAL Original Geometry Count = 7   (22)
+LAYER DNW .............. TOTAL Original Geometry Count = 0   (0)
+LAYER NPLUS ............ TOTAL Original Geometry Count = 14  (44)
+LAYER LLLVT ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SBLK ............. TOTAL Original Geometry Count = 0   (0)
+LAYER SEPGND ........... TOTAL Original Geometry Count = 0   (0)
+LAYER MMSYMBOL ......... TOTAL Original Geometry Count = 0   (0)
+LAYER SPHVT ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SPLVT ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SP ............... TOTAL Original Geometry Count = 0   (0)
+LAYER ME1 .............. TOTAL Original Geometry Count = 138 (418)
+LAYER ME2 .............. TOTAL Original Geometry Count = 76  (220)
+LAYER ME3 .............. TOTAL Original Geometry Count = 33  (73)
+LAYER ME4 .............. TOTAL Original Geometry Count = 7   (7)
+LAYER ME5 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER ME6 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER ME7 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER ME8 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER RSSERMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER RSPARMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER SEALRMARK ........ TOTAL Original Geometry Count = 0   (0)
+LAYER RFMOS_S .......... TOTAL Original Geometry Count = 0   (0)
+LAYER CONT ............. TOTAL Original Geometry Count = 160 (471)
+LAYER PO1RCMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M8RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M7RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M6RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M5RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M4RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M3RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M2RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M1RCMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE3 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE17 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER MOMSYMBOL ........ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE19 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE2 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE1 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SDSYM ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE7 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE6 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE5 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE4 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE24 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE25 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE23 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SCANTMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER XDIODE ........... TOTAL Original Geometry Count = 0   (0)
+LAYER DSYMBOL .......... TOTAL Original Geometry Count = 0   (0)
+LAYER CSYMBOL .......... TOTAL Original Geometry Count = 0   (0)
+LAYER GOX523P3VIMPMK ... TOTAL Original Geometry Count = 0   (0)
+LAYER FUSEMARK ......... TOTAL Original Geometry Count = 0   (0)
+LAYER CU_FUSE_PAD ...... TOTAL Original Geometry Count = 0   (0)
+LAYER IOID ............. TOTAL Original Geometry Count = 0   (0)
+LAYER PASV_RDL ......... TOTAL Original Geometry Count = 0   (0)
+LAYER BOACMK ........... TOTAL Original Geometry Count = 0   (0)
+LAYER AL_RDL ........... TOTAL Original Geometry Count = 0   (0)
+LAYER IND .............. TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE10 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE12 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE11 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE9 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE8 ............ TOTAL Original Geometry Count = 0   (0)
+LAYER VI7 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER VI6 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER VI5 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER VI4 .............. TOTAL Original Geometry Count = 0   (0)
+LAYER VI3 .............. TOTAL Original Geometry Count = 7   (7)
+LAYER SIZE15 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE14 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE13 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M1RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M2RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M3RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M4RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M5RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M6RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER ALRESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M7RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER M8RESMK .......... TOTAL Original Geometry Count = 0   (0)
+LAYER VI1BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI1 .............. TOTAL Original Geometry Count = 69  (213)
+LAYER TMVBAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER TMV_RDL .......... TOTAL Original Geometry Count = 0   (0)
+LAYER VI2BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI2 .............. TOTAL Original Geometry Count = 26  (66)
+LAYER VI3BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI4BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI5BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI6BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER VI7BAR ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE22 ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M2DUMY ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M3DUMY ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M4DUMY ........... TOTAL Original Geometry Count = 0   (0)
+LAYER M5DUMY ........... TOTAL Original Geometry Count = 0   (0)
+LAYER SIZE16 ........... TOTAL Original Geometry Count = 0   (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK WRONG_NTAP ....................... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_PTAP ....................... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_TTAP ....................... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_NTAP .............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_PTAP .............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_TTAP .............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_WEL ............... TOTAL Result Count = 0 (0)
+RULECHECK PATHCHK_GND ...................... TOTAL Result Count = 0 (0)
+RULECHECK PATHCHK_PWR ...................... TOTAL Result Count = 0 (0)
+RULECHECK PATHCHK_NPWRGND .................. TOTAL Result Count = 0 (0)
+RULECHECK PATHCHK_NLABELED ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH1 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH2 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH3 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH4 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH5 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP_MESH6 ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH1 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH2 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH3 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH4 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH5 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP_MESH6 ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP1 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP2 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP3 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP4 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP5 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_GR_MOMCAP6 ................. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP1 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP2 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP3 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP4 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP5 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_GR_MOMCAP6 ........ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_SHIELD_MOMCAP_P ............ TOTAL Result Count = 0 (0)
+RULECHECK WRONG_SHIELD_MOMCAP1 ............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_SHIELD_MOMCAP2 ............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_SHIELD_MOMCAP3 ............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_SHIELD_MOMCAP4 ............. TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_SHIELD_MOMCAP_P ... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_SHIELD_MOMCAP1 .... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_SHIELD_MOMCAP2 .... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_SHIELD_MOMCAP3 .... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_SHIELD_MOMCAP4 .... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_MIMCAP ..................... TOTAL Result Count = 0 (0)
+RULECHECK WRONG_FLOATING_MIMCAP ............ TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                              2
+TOTAL REAL Time:                             6
+TOTAL Original Layer Geometries:             650 (1884)
+TOTAL ERC RuleChecks Executed:               47
+TOTAL ERC RuleCheck Results Generated:       0 (0)

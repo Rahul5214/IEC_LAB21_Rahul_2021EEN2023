@@ -1,0 +1,1351 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         mod_5_counter.lvs.report
+LAYOUT NAME:              /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/svdb/mod_5_counter.sp ('mod_5_counter')
+SOURCE NAME:              /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/mod_5_counter.src.net ('mod_5_counter')
+RULE FILE:                /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex/_G-DF-LOGIC_MIXED_MODE65N-1P8M1T0F1U-LL_MIM_LOW_K_TOP_METAL32.5K-XRC-LPE-1.0_P2-Typ.tec_
+RULE FILE TITLE:          UMC Calibre LVS 65nm LOGIC/MIXED MODE Low Leakage Low-K Process
+CREATION TIME:            Fri Sep 17 20:46:05 2021
+CURRENT DIRECTORY:        /afs/iitd.ac.in/user/e/ee/een212023/lab21/calibre_dir/pex
+USER NAME:                een212023
+CALIBRE VERSION:          v2020.4_34.17    Tue Dec 1 16:11:11 PST 2020
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      mod_5_counter                 mod_5_counter
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "?VDD?"
+   LVS GROUND NAME                        "?GND?"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            NO
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             YES
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            YES
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     1000
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      A B C D S
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+   LVS EXPAND ON ERROR                    NO
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  C(MIMCAPS_20F_MM)  PARALLEL NO
+   LVS REDUCE  C(NCAP_12_LL)  PARALLEL NO
+   LVS REDUCE  C(PCAP_12_LL)  PARALLEL NO
+   LVS REDUCE  C(NCAP_25_LL)  PARALLEL NO
+   LVS REDUCE  C(PCAP_25_LL)  PARALLEL NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  n_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  n_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  n_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  n_12_llrvtrf  con con 0
+   TRACE PROPERTY  p_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  p_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  p_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  p_12_llrvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_llrvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_llrvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_llrvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_llrvtrf  con con 0
+   TRACE PROPERTY  n_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  n_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  n_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  n_12_llhvtrf  con con 0
+   TRACE PROPERTY  p_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  p_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  p_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  p_12_llhvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_llhvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_llhvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_llhvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_llhvtrf  con con 0
+   TRACE PROPERTY  n_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  n_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  n_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  n_12_lllvtrf  con con 0
+   TRACE PROPERTY  p_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  p_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  p_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  p_12_lllvtrf  con con 0
+   TRACE PROPERTY  n_bpw_12_lllvtrf  lf lf 3
+   TRACE PROPERTY  n_bpw_12_lllvtrf  wf wf 3
+   TRACE PROPERTY  n_bpw_12_lllvtrf  nf nf 0
+   TRACE PROPERTY  n_bpw_12_lllvtrf  con con 0
+   TRACE PROPERTY  n_25_llrf  lf lf 3
+   TRACE PROPERTY  n_25_llrf  wf wf 3
+   TRACE PROPERTY  n_25_llrf  nf nf 0
+   TRACE PROPERTY  n_25_llrf  con con 0
+   TRACE PROPERTY  p_25_llrf  lf lf 3
+   TRACE PROPERTY  p_25_llrf  wf wf 3
+   TRACE PROPERTY  p_25_llrf  nf nf 0
+   TRACE PROPERTY  p_25_llrf  con con 0
+   TRACE PROPERTY  n_bpw_25_llrf  lf lf 3
+   TRACE PROPERTY  n_bpw_25_llrf  wf wf 3
+   TRACE PROPERTY  n_bpw_25_llrf  nf nf 0
+   TRACE PROPERTY  n_bpw_25_llrf  con con 0
+   TRACE PROPERTY  r(rsnpo_efuse)  r r 3
+   TRACE PROPERTY  r(rsppo_efuse)  r r 3
+   TRACE PROPERTY  rnnpo_nw_llrf  r r 3
+   TRACE PROPERTY  rnnpo_nw_llrf  l l 3
+   TRACE PROPERTY  rnnpo_nw_llrf  w w 3
+   TRACE PROPERTY  rnnpo_llrf  r r 3
+   TRACE PROPERTY  rnnpo_llrf  l l 3
+   TRACE PROPERTY  rnnpo_llrf  w w 3
+   TRACE PROPERTY  rnppo_nw_llrf  r r 3
+   TRACE PROPERTY  rnppo_nw_llrf  l l 3
+   TRACE PROPERTY  rnppo_nw_llrf  w w 3
+   TRACE PROPERTY  rnppo_llrf  r r 3
+   TRACE PROPERTY  rnppo_llrf  l l 3
+   TRACE PROPERTY  rnppo_llrf  w w 3
+   TRACE PROPERTY  rnhr_nw_llrf  r r 3
+   TRACE PROPERTY  rnhr_nw_llrf  l l 3
+   TRACE PROPERTY  rnhr_nw_llrf  w w 3
+   TRACE PROPERTY  rnhr_llrf  r r 3
+   TRACE PROPERTY  rnhr_llrf  l l 3
+   TRACE PROPERTY  rnhr_llrf  w w 3
+   TRACE PROPERTY  r(fuse)  r r 3
+   TRACE PROPERTY  r(ral)  r r 3
+   TRACE PROPERTY  varmis_12_llrf  lf lf 3
+   TRACE PROPERTY  varmis_12_llrf  wf wf 3
+   TRACE PROPERTY  varmis_12_llrf  nf nf 0
+   TRACE PROPERTY  varmis_12_llrf  array array 0
+   TRACE PROPERTY  varmis_25_llrf  lf lf 3
+   TRACE PROPERTY  varmis_25_llrf  wf wf 3
+   TRACE PROPERTY  varmis_25_llrf  nf nf 0
+   TRACE PROPERTY  varmis_25_llrf  array array 0
+   TRACE PROPERTY  vardiop_llrf  l l 3
+   TRACE PROPERTY  vardiop_llrf  wp wp 3
+   TRACE PROPERTY  vardiop_llrf  nf nf 0
+   TRACE PROPERTY  vardiop_llrf  c c 3
+   TRACE PROPERTY  d(dionw_ll)  a a 3
+   TRACE PROPERTY  d(dionw_ll)  p p 3
+   TRACE PROPERTY  d(diodnw_ll)  a a 3
+   TRACE PROPERTY  d(diodnw_ll)  p p 3
+   TRACE PROPERTY  d(diodp_ll)  a a 3
+   TRACE PROPERTY  d(diodp_ll)  p p 3
+   TRACE PROPERTY  momcaps_sy_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_sy_mmkf  l l 3
+   TRACE PROPERTY  momcaps_sy_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_sy_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_as_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_as_mmkf  l l 3
+   TRACE PROPERTY  momcaps_as_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_as_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  mh mh 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_symesh_mmkf  l l 3
+   TRACE PROPERTY  momcaps_asmesh_mmkf  nf nf 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  mh mh 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  nm nm 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  bm bm 0
+   TRACE PROPERTY  momcaps_asmesh_mmkf  l l 3
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp3_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp4_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  bm bm 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  ns ns 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  nf nf 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  array array 0
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  lf lf 3
+   TRACE PROPERTY  momcaps_array_vp5_rfvcl  sh sh 0
+   TRACE PROPERTY  l_slcr30k_rfvil  s s 3
+   TRACE PROPERTY  l_slcr30k_rfvil  w w 3
+   TRACE PROPERTY  l_slcr30k_rfvil  od od 3
+   TRACE PROPERTY  l_slcr30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_syct30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_syct30k_rfvil  s s 3
+   TRACE PROPERTY  l_syct30k_rfvil  w w 3
+   TRACE PROPERTY  l_syct30k_rfvil  od od 3
+   TRACE PROPERTY  l_sy30k_rfvil  nt nt 0
+   TRACE PROPERTY  l_sy30k_rfvil  s s 3
+   TRACE PROPERTY  l_sy30k_rfvil  w w 3
+   TRACE PROPERTY  l_sy30k_rfvil  od od 3
+   TRACE PROPERTY  l_sqsk_rfvil  nt nt 0
+   TRACE PROPERTY  l_sqsk_rfvil  s s 3
+   TRACE PROPERTY  l_sqsk_rfvil  w w 3
+   TRACE PROPERTY  l_sqsk_rfvil  od od 3
+   TRACE PROPERTY  l_sqsk_rfvil  ns ns 0
+   TRACE PROPERTY  l_sqsk_rfvil  bm bm 0
+   TRACE PROPERTY  mimcaps_20f_nwell_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_nwell_rfkf  w w 3
+   TRACE PROPERTY  mimcaps_20f_psub_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_psub_rfkf  w w 3
+   TRACE PROPERTY  mimcaps_20f_m1_rfkf  l l 3
+   TRACE PROPERTY  mimcaps_20f_m1_rfkf  w w 3
+   TRACE PROPERTY  c(mimcaps_20f_mm)  c c 3
+   TRACE PROPERTY  l_sq_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sq_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sq_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sq_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctin_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctin_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctin_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctin_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctout_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctout_trans_rfvil  od od 3
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  nt_out nt_out 0
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_sqctinout_trans_rfvil  od od 3
+   TRACE PROPERTY  l_occtout_trans_rfvil  nt_in nt_in 0
+   TRACE PROPERTY  l_occtout_trans_rfvil  w w 3
+   TRACE PROPERTY  l_occtout_trans_rfvil  od od 3
+   TRACE PROPERTY  pad_rf  index_layer index_layer 0
+   TRACE PROPERTY  pad_rf  index_thick index_thick 0
+   TRACE PROPERTY  pad_rf  index_pad index_pad 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         mod_5_counter
+SOURCE CELL NAME:         mod_5_counter
+
+--------------------------------------------------------------------------------------------------------------
+
+NUMBERS OF OBJECTS
+------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              63        63
+
+ Instances:         60        60         MN (4 pins)
+                    60        60         MP (4 pins)
+                ------    ------
+ Total Inst:       120       120
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net GND                                                   GND
+       --- 90 Connections On This Net ---                        --- 90 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X8/M5(48.185,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM0  MN(N_12_LLRVT)
+         s: X8/25                                                  s: XI2/XI1/net21
+         d: X8/11                                                  d: XI2/net22
+         b: GND                                                    b: GND
+         g: C_MSB                                                  ** C_MSB **
+         ** CLK **                                                 g: CLK
+
+       X8/M3(47.230,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X8/24                                                  d: XI2/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** C_MSB **                                               g: C_MSB
+
+       X7/M5(25.455,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM2  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: X7/25                                                  d: XI1/XI1/net20
+         b: GND                                                    b: GND
+         d: X7/11                                                  ** XI1/net22 **
+         ** GND **                                                 s: GND
+
+       X7/M3(24.500,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: X7/24                                                  s: XI1/XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** X7/11 **                                               d: XI1/net22
+
+       X6/M5(5.670,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM0  MN(N_12_LLRVT)
+         s: X6/25                                                  s: XI0/XI1/net21
+         d: X6/11                                                  d: XI0/net22
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** CLK **                                                 g: CLK
+
+       X6/M3(4.715,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X6/24                                                  d: XI0/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** A_LSB **                                               g: A_LSB
+
+       M1(41.690,0.905)  MN(N_12_LLRVT)                          XI3/MNM0  MN(N_12_LLRVT)
+         s: 15                                                     s: XI3/net23
+         d: 3                                                      d: XI3/net15
+         b: GND                                                    b: GND
+         g: B                                                      ** B **
+         ** A_LSB **                                               g: A_LSB
+
+       M0(41.430,0.905)  MN(N_12_LLRVT)                          XI3/MNM1  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: 15                                                     d: XI3/net23
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** B **                                                   g: B
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         CLK: CLK                                                  CLK: CLK
+         B: B                                                      B: B
+         A_LSB: A_LSB                                              A_LSB: A_LSB
+         C_MSB: C_MSB                                              C_MSB: C_MSB
+
+       X8/X31/M1(58.455,0.905)  MN(N_12_LLRVT)                   XI2/XI5/MNM1  MN(N_12_LLRVT)
+         g: X8/9                                                   g: XI2/net15
+         s: X8/X31/8                                               s: XI2/XI5/net17
+         d: X8/13                                                  d: XI2/net20
+         b: GND                                                    b: GND
+
+       X8/X31/M0(58.195,0.905)  MN(N_12_LLRVT)                   XI2/XI5/MNM0  MN(N_12_LLRVT)
+         g: X8/20                                                  g: XI2/net19
+         s: GND                                                    s: GND
+         d: X8/X31/8                                               d: XI2/XI5/net17
+         b: GND                                                    b: GND
+
+       X8/X30/M1(56.100,0.905)  MN(N_12_LLRVT)                   XI2/XI4/MNM1  MN(N_12_LLRVT)
+         g: X8/20                                                  g: XI2/net19
+         s: X8/X30/8                                               s: XI2/XI4/net17
+         d: X8/12                                                  d: XI2/net21
+         b: GND                                                    b: GND
+
+       X8/X30/M0(55.840,0.905)  MN(N_12_LLRVT)                   XI2/XI4/MNM0  MN(N_12_LLRVT)
+         g: X8/10                                                  g: XI2/net14
+         s: GND                                                    s: GND
+         d: X8/X30/8                                               d: XI2/XI4/net17
+         b: GND                                                    b: GND
+
+       X8/M14(62.125,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI1/MNM1  MN(N_12_LLRVT)
+         g: X8/13                                                  g: XI2/net20
+         s: X8/29                                                  s: XI2/XI11/XI1/net17
+         d: 5                                                      d: net8
+         b: GND                                                    b: GND
+
+       X8/M13(61.865,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: C_MSB                                                  g: C_MSB
+         s: GND                                                    s: GND
+         d: X8/29                                                  d: XI2/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X8/M12(60.870,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 5                                                      g: net8
+         s: X8/28                                                  s: XI2/XI11/XI0/net17
+         d: C_MSB                                                  d: C_MSB
+         b: GND                                                    b: GND
+
+       X8/M11(60.610,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI0/MNM0  MN(N_12_LLRVT)
+         g: X8/12                                                  g: XI2/net21
+         s: GND                                                    s: GND
+         d: X8/28                                                  d: XI2/XI11/XI0/net17
+         b: GND                                                    b: GND
+
+       X8/M10(53.760,0.905)  MN(N_12_LLRVT)                      XI2/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X8/20                                                  d: XI2/net19
+         b: GND                                                    b: GND
+
+       X8/M9(51.490,0.905)  MN(N_12_LLRVT)                       XI2/XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: X8/11                                                  g: XI2/net22
+         s: X8/27                                                  s: XI2/XI10/XI1/net17
+         d: X8/9                                                   d: XI2/net15
+         b: GND                                                    b: GND
+
+       X8/M8(51.230,0.905)  MN(N_12_LLRVT)                       XI2/XI10/XI1/MNM0  MN(N_12_LLRVT)
+         g: X8/10                                                  g: XI2/net14
+         s: GND                                                    s: GND
+         d: X8/27                                                  d: XI2/XI10/XI1/net17
+         b: GND                                                    b: GND
+
+       X8/M7(50.235,0.905)  MN(N_12_LLRVT)                       XI2/XI10/XI0/MNM1  MN(N_12_LLRVT)
+         g: X8/9                                                   g: XI2/net15
+         s: X8/26                                                  s: XI2/XI10/XI0/net17
+         d: X8/10                                                  d: XI2/net14
+         b: GND                                                    b: GND
+
+       X8/M6(49.975,0.905)  MN(N_12_LLRVT)                       XI2/XI10/XI0/MNM0  MN(N_12_LLRVT)
+         g: X8/8                                                   g: XI2/net23
+         s: GND                                                    s: GND
+         d: X8/26                                                  d: XI2/XI10/XI0/net17
+         b: GND                                                    b: GND
+
+       X8/M4(47.490,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM1  MN(N_12_LLRVT)
+         g: VDD                                                    g: VDD
+         s: X8/24                                                  s: XI2/XI1/net20
+         d: X8/25                                                  d: XI2/XI1/net21
+         b: GND                                                    b: GND
+
+       X8/M2(45.730,0.905)  MN(N_12_LLRVT)                       XI2/XI0/MNM0  MN(N_12_LLRVT)
+         g: 5                                                      g: net8
+         s: X8/23                                                  s: XI2/XI0/net21
+         d: X8/8                                                   d: XI2/net23
+         b: GND                                                    b: GND
+
+       X8/M1(45.035,0.905)  MN(N_12_LLRVT)                       XI2/XI0/MNM1  MN(N_12_LLRVT)
+         g: 9                                                      g: net16
+         s: X8/22                                                  s: XI2/XI0/net20
+         d: X8/23                                                  d: XI2/XI0/net21
+         b: GND                                                    b: GND
+
+       X8/M0(44.775,0.905)  MN(N_12_LLRVT)                       XI2/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X8/22                                                  d: XI2/XI0/net20
+         b: GND                                                    b: GND
+
+       X7/X31/M1(35.725,0.905)  MN(N_12_LLRVT)                   XI1/XI5/MNM1  MN(N_12_LLRVT)
+         g: X7/9                                                   g: XI1/net15
+         s: X7/X31/8                                               s: XI1/XI5/net17
+         d: X7/13                                                  d: XI1/net20
+         b: GND                                                    b: GND
+
+       X7/X31/M0(35.465,0.905)  MN(N_12_LLRVT)                   XI1/XI5/MNM0  MN(N_12_LLRVT)
+         g: X7/20                                                  g: XI1/net19
+         s: GND                                                    s: GND
+         d: X7/X31/8                                               d: XI1/XI5/net17
+         b: GND                                                    b: GND
+
+       X7/X30/M1(33.370,0.905)  MN(N_12_LLRVT)                   XI1/XI4/MNM1  MN(N_12_LLRVT)
+         g: X7/20                                                  g: XI1/net19
+         s: X7/X30/8                                               s: XI1/XI4/net17
+         d: X7/12                                                  d: XI1/net21
+         b: GND                                                    b: GND
+
+       X7/X30/M0(33.110,0.905)  MN(N_12_LLRVT)                   XI1/XI4/MNM0  MN(N_12_LLRVT)
+         g: X7/10                                                  g: XI1/net14
+         s: GND                                                    s: GND
+         d: X7/X30/8                                               d: XI1/XI4/net17
+         b: GND                                                    b: GND
+
+       X7/M14(39.395,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI1/MNM1  MN(N_12_LLRVT)
+         g: X7/13                                                  g: XI1/net20
+         s: X7/29                                                  s: XI1/XI11/XI1/net17
+         d: 11                                                     d: net24
+         b: GND                                                    b: GND
+
+       X7/M13(39.135,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: GND                                                    s: GND
+         d: X7/29                                                  d: XI1/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X7/M12(38.140,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 11                                                     g: net24
+         s: X7/28                                                  s: XI1/XI11/XI0/net17
+         d: B                                                      d: B
+         b: GND                                                    b: GND
+
+       X7/M11(37.880,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI0/MNM0  MN(N_12_LLRVT)
+         g: X7/12                                                  g: XI1/net21
+         s: GND                                                    s: GND
+         d: X7/28                                                  d: XI1/XI11/XI0/net17
+         b: GND                                                    b: GND
+
+       X7/M10(31.030,0.905)  MN(N_12_LLRVT)                      XI1/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X7/20                                                  d: XI1/net19
+         b: GND                                                    b: GND
+
+       X7/M9(28.760,0.905)  MN(N_12_LLRVT)                       XI1/XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: X7/11                                                  g: XI1/net22
+         s: X7/27                                                  s: XI1/XI10/XI1/net17
+         d: X7/9                                                   d: XI1/net15
+         b: GND                                                    b: GND
+
+       X7/M8(28.500,0.905)  MN(N_12_LLRVT)                       XI1/XI10/XI1/MNM0  MN(N_12_LLRVT)
+         g: X7/10                                                  g: XI1/net14
+         s: GND                                                    s: GND
+         d: X7/27                                                  d: XI1/XI10/XI1/net17
+         b: GND                                                    b: GND
+
+       X7/M7(27.505,0.905)  MN(N_12_LLRVT)                       XI1/XI10/XI0/MNM1  MN(N_12_LLRVT)
+         g: X7/9                                                   g: XI1/net15
+         s: X7/26                                                  s: XI1/XI10/XI0/net17
+         d: X7/10                                                  d: XI1/net14
+         b: GND                                                    b: GND
+
+       X7/M6(27.245,0.905)  MN(N_12_LLRVT)                       XI1/XI10/XI0/MNM0  MN(N_12_LLRVT)
+         g: X7/8                                                   g: XI1/net23
+         s: GND                                                    s: GND
+         d: X7/26                                                  d: XI1/XI10/XI0/net17
+         b: GND                                                    b: GND
+
+       X7/M4(24.760,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM1  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: X7/24                                                  d: XI1/XI1/net21
+         d: X7/25                                                  s: XI1/XI1/net20
+         b: GND                                                    b: GND
+
+       X7/M2(23.000,0.905)  MN(N_12_LLRVT)                       XI1/XI0/MNM0  MN(N_12_LLRVT)
+         g: 11                                                     g: net24
+         s: X7/23                                                  s: XI1/XI0/net21
+         d: X7/8                                                   d: XI1/net23
+         b: GND                                                    b: GND
+
+       X7/M1(22.305,0.905)  MN(N_12_LLRVT)                       XI1/XI0/MNM1  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: X7/22                                                  s: XI1/XI0/net20
+         d: X7/23                                                  d: XI1/XI0/net21
+         b: GND                                                    b: GND
+
+       X7/M0(22.045,0.905)  MN(N_12_LLRVT)                       XI1/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X7/22                                                  d: XI1/XI0/net20
+         b: GND                                                    b: GND
+
+       X6/X31/M1(15.940,0.905)  MN(N_12_LLRVT)                   XI0/XI5/MNM1  MN(N_12_LLRVT)
+         g: X6/9                                                   g: XI0/net15
+         s: X6/X31/8                                               s: XI0/XI5/net17
+         d: X6/13                                                  d: XI0/net20
+         b: GND                                                    b: GND
+
+       X6/X31/M0(15.680,0.905)  MN(N_12_LLRVT)                   XI0/XI5/MNM0  MN(N_12_LLRVT)
+         g: X6/20                                                  g: XI0/net19
+         s: GND                                                    s: GND
+         d: X6/X31/8                                               d: XI0/XI5/net17
+         b: GND                                                    b: GND
+
+       X6/X30/M1(13.585,0.905)  MN(N_12_LLRVT)                   XI0/XI4/MNM1  MN(N_12_LLRVT)
+         g: X6/20                                                  g: XI0/net19
+         s: X6/X30/8                                               s: XI0/XI4/net17
+         d: X6/12                                                  d: XI0/net21
+         b: GND                                                    b: GND
+
+       X6/X30/M0(13.325,0.905)  MN(N_12_LLRVT)                   XI0/XI4/MNM0  MN(N_12_LLRVT)
+         g: X6/10                                                  g: XI0/net14
+         s: GND                                                    s: GND
+         d: X6/X30/8                                               d: XI0/XI4/net17
+         b: GND                                                    b: GND
+
+       X6/M14(19.610,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI1/MNM1  MN(N_12_LLRVT)
+         g: X6/13                                                  g: XI0/net20
+         s: X6/29                                                  s: XI0/XI11/XI1/net17
+         d: 10                                                     d: net25
+         b: GND                                                    b: GND
+
+       X6/M13(19.350,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: GND                                                    s: GND
+         d: X6/29                                                  d: XI0/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X6/M12(18.355,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 10                                                     g: net25
+         s: X6/28                                                  s: XI0/XI11/XI0/net17
+         d: A_LSB                                                  d: A_LSB
+         b: GND                                                    b: GND
+
+       X6/M11(18.095,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI0/MNM0  MN(N_12_LLRVT)
+         g: X6/12                                                  g: XI0/net21
+         s: GND                                                    s: GND
+         d: X6/28                                                  d: XI0/XI11/XI0/net17
+         b: GND                                                    b: GND
+
+       X6/M10(11.245,0.905)  MN(N_12_LLRVT)                      XI0/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X6/20                                                  d: XI0/net19
+         b: GND                                                    b: GND
+
+       X6/M9(8.975,0.905)  MN(N_12_LLRVT)                        XI0/XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: X6/11                                                  g: XI0/net22
+         s: X6/27                                                  s: XI0/XI10/XI1/net17
+         d: X6/9                                                   d: XI0/net15
+         b: GND                                                    b: GND
+
+       X6/M8(8.715,0.905)  MN(N_12_LLRVT)                        XI0/XI10/XI1/MNM0  MN(N_12_LLRVT)
+         g: X6/10                                                  g: XI0/net14
+         s: GND                                                    s: GND
+         d: X6/27                                                  d: XI0/XI10/XI1/net17
+         b: GND                                                    b: GND
+
+       X6/M7(7.720,0.905)  MN(N_12_LLRVT)                        XI0/XI10/XI0/MNM1  MN(N_12_LLRVT)
+         g: X6/9                                                   g: XI0/net15
+         s: X6/26                                                  s: XI0/XI10/XI0/net17
+         d: X6/10                                                  d: XI0/net14
+         b: GND                                                    b: GND
+
+       X6/M6(7.460,0.905)  MN(N_12_LLRVT)                        XI0/XI10/XI0/MNM0  MN(N_12_LLRVT)
+         g: X6/8                                                   g: XI0/net23
+         s: GND                                                    s: GND
+         d: X6/26                                                  d: XI0/XI10/XI0/net17
+         b: GND                                                    b: GND
+
+       X6/M4(4.975,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM1  MN(N_12_LLRVT)
+         g: VDD                                                    g: VDD
+         s: X6/24                                                  s: XI0/XI1/net20
+         d: X6/25                                                  d: XI0/XI1/net21
+         b: GND                                                    b: GND
+
+       X6/M2(3.215,0.905)  MN(N_12_LLRVT)                        XI0/XI0/MNM0  MN(N_12_LLRVT)
+         g: 10                                                     g: net25
+         s: X6/23                                                  s: XI0/XI0/net21
+         d: X6/8                                                   d: XI0/net23
+         b: GND                                                    b: GND
+
+       X6/M1(2.520,0.905)  MN(N_12_LLRVT)                        XI0/XI0/MNM1  MN(N_12_LLRVT)
+         g: 5                                                      g: net8
+         s: X6/22                                                  s: XI0/XI0/net20
+         d: X6/23                                                  d: XI0/XI0/net21
+         b: GND                                                    b: GND
+
+       X6/M0(2.260,0.905)  MN(N_12_LLRVT)                        XI0/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X6/22                                                  d: XI0/XI0/net20
+         b: GND                                                    b: GND
+
+       M2(42.495,0.905)  MN(N_12_LLRVT)                          XI3/MNM3  MN(N_12_LLRVT)
+         g: 3                                                      g: XI3/net15
+         s: GND                                                    s: GND
+         d: 9                                                      d: net16
+         b: GND                                                    b: GND
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net A_LSB                                                 A_LSB
+       --- 14 Connections On This Net ---                        --- 14 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X6/M5(5.670,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM0  MN(N_12_LLRVT)
+         s: X6/25                                                  s: XI0/XI1/net21
+         d: X6/11                                                  d: XI0/net22
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** CLK **                                                 g: CLK
+
+       M0(41.430,0.905)  MN(N_12_LLRVT)                          XI3/MNM1  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: 15                                                     d: XI3/net23
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** B **                                                   g: B
+
+       X6/M3(4.715,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X6/24                                                  d: XI0/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** A_LSB **                                               g: A_LSB
+
+       M1(41.690,0.905)  MN(N_12_LLRVT)                          XI3/MNM0  MN(N_12_LLRVT)
+         s: 15                                                     s: XI3/net23
+         d: 3                                                      d: XI3/net15
+         b: GND                                                    b: GND
+         g: B                                                      ** B **
+         ** A_LSB **                                               g: A_LSB
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         CLK: CLK                                                  CLK: CLK
+         B: B                                                      B: B
+         A_LSB: A_LSB                                              A_LSB: A_LSB
+         C_MSB: C_MSB                                              C_MSB: C_MSB
+
+       X7/M19(24.760,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM1  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: VDD                                                    s: VDD
+         d: X7/11                                                  d: XI1/net22
+         b: VDD                                                    b: VDD
+
+       X7/M16(22.305,1.415)  MP(P_12_LLRVT)                      XI1/XI0/MPM1  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: VDD                                                    s: VDD
+         d: X7/8                                                   d: XI1/net23
+         b: VDD                                                    b: VDD
+
+       X7/M4(24.760,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM1  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: X7/24                                                  d: XI1/XI1/net21
+         d: X7/25                                                  s: XI1/XI1/net20
+         b: GND                                                    b: GND
+
+       X7/M1(22.305,0.905)  MN(N_12_LLRVT)                       XI1/XI0/MNM1  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: X7/22                                                  s: XI1/XI0/net20
+         d: X7/23                                                  d: XI1/XI0/net21
+         b: GND                                                    b: GND
+
+       X6/M28(19.350,1.525)  MP(P_12_LLRVT)                      XI0/XI11/XI1/MPM0  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: 10                                                     d: net25
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X6/M27(18.355,1.525)  MP(P_12_LLRVT)                      XI0/XI11/XI0/MPM1  MP(P_12_LLRVT)
+         g: 10                                                     g: net25
+         s: VDD                                                    s: VDD
+         d: A_LSB                                                  d: A_LSB
+         b: VDD                                                    b: VDD
+
+       X6/M26(18.095,1.525)  MP(P_12_LLRVT)                      XI0/XI11/XI0/MPM0  MP(P_12_LLRVT)
+         g: X6/12                                                  g: XI0/net21
+         s: A_LSB                                                  d: A_LSB
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X6/M20(5.670,1.415)  MP(P_12_LLRVT)                       XI0/XI1/MPM2  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: VDD                                                    s: VDD
+         d: X6/11                                                  d: XI0/net22
+         b: VDD                                                    b: VDD
+
+       X6/M13(19.350,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: GND                                                    s: GND
+         d: X6/29                                                  d: XI0/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X6/M12(18.355,0.905)  MN(N_12_LLRVT)                      XI0/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 10                                                     g: net25
+         s: X6/28                                                  s: XI0/XI11/XI0/net17
+         d: A_LSB                                                  d: A_LSB
+         b: GND                                                    b: GND
+
+       M3(41.430,1.525)  MP(P_12_LLRVT)                          XI3/MPM1  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: VDD                                                    s: VDD
+         d: 3                                                      d: XI3/net15
+         b: VDD                                                    b: VDD
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net B                                                     B
+       --- 10 Connections On This Net ---                        --- 10 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X7/M5(25.455,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM2  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: X7/25                                                  d: XI1/XI1/net20
+         b: GND                                                    b: GND
+         d: X7/11                                                  ** XI1/net22 **
+         ** GND **                                                 s: GND
+
+       M1(41.690,0.905)  MN(N_12_LLRVT)                          XI3/MNM0  MN(N_12_LLRVT)
+         s: 15                                                     s: XI3/net23
+         d: 3                                                      d: XI3/net15
+         b: GND                                                    b: GND
+         g: B                                                      ** B **
+         ** A_LSB **                                               g: A_LSB
+
+       M0(41.430,0.905)  MN(N_12_LLRVT)                          XI3/MNM1  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: 15                                                     d: XI3/net23
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** B **                                                   g: B
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         CLK: CLK                                                  CLK: CLK
+         B: B                                                      B: B
+         A_LSB: A_LSB                                              A_LSB: A_LSB
+         C_MSB: C_MSB                                              C_MSB: C_MSB
+
+       X7/M28(39.135,1.525)  MP(P_12_LLRVT)                      XI1/XI11/XI1/MPM0  MP(P_12_LLRVT)
+         g: B                                                      g: B
+         s: 11                                                     d: net24
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X7/M27(38.140,1.525)  MP(P_12_LLRVT)                      XI1/XI11/XI0/MPM1  MP(P_12_LLRVT)
+         g: 11                                                     g: net24
+         s: VDD                                                    s: VDD
+         d: B                                                      d: B
+         b: VDD                                                    b: VDD
+
+       X7/M26(37.880,1.525)  MP(P_12_LLRVT)                      XI1/XI11/XI0/MPM0  MP(P_12_LLRVT)
+         g: X7/12                                                  g: XI1/net21
+         s: B                                                      d: B
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X7/M20(25.455,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM2  MP(P_12_LLRVT)
+         g: B                                                      g: B
+         s: VDD                                                    s: VDD
+         d: X7/11                                                  d: XI1/net22
+         b: VDD                                                    b: VDD
+
+       X7/M13(39.135,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: GND                                                    s: GND
+         d: X7/29                                                  d: XI1/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X7/M12(38.140,0.905)  MN(N_12_LLRVT)                      XI1/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 11                                                     g: net24
+         s: X7/28                                                  s: XI1/XI11/XI0/net17
+         d: B                                                      d: B
+         b: GND                                                    b: GND
+
+       M4(41.690,1.525)  MP(P_12_LLRVT)                          XI3/MPM2  MP(P_12_LLRVT)
+         g: B                                                      g: B
+         s: 3                                                      d: XI3/net15
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net CLK                                                   CLK
+       --- 19 Connections On This Net ---                        --- 19 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X8/M3(47.230,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X8/24                                                  d: XI2/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** C_MSB **                                               g: C_MSB
+
+       X7/M3(24.500,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: X7/24                                                  s: XI1/XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** X7/11 **                                               d: XI1/net22
+
+       X6/M3(4.715,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X6/24                                                  d: XI0/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** A_LSB **                                               g: A_LSB
+
+       X6/M5(5.670,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM0  MN(N_12_LLRVT)
+         s: X6/25                                                  s: XI0/XI1/net21
+         d: X6/11                                                  d: XI0/net22
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** CLK **                                                 g: CLK
+
+       X8/M5(48.185,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM0  MN(N_12_LLRVT)
+         s: X8/25                                                  s: XI2/XI1/net21
+         d: X8/11                                                  d: XI2/net22
+         b: GND                                                    b: GND
+         g: C_MSB                                                  ** C_MSB **
+         ** CLK **                                                 g: CLK
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         CLK: CLK                                                  CLK: CLK
+         B: B                                                      B: B
+         A_LSB: A_LSB                                              A_LSB: A_LSB
+         C_MSB: C_MSB                                              C_MSB: C_MSB
+
+       X8/M25(53.760,1.415)  MP(P_12_LLRVT)                      XI2/XI8/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: VDD                                                    s: VDD
+         d: X8/20                                                  d: XI2/net19
+         b: VDD                                                    b: VDD
+
+       X8/M18(47.230,1.415)  MP(P_12_LLRVT)                      XI2/XI1/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X8/11                                                  d: XI2/net22
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X8/M15(44.775,1.415)  MP(P_12_LLRVT)                      XI2/XI0/MPM2  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X8/8                                                   d: XI2/net23
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X8/M10(53.760,0.905)  MN(N_12_LLRVT)                      XI2/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X8/20                                                  d: XI2/net19
+         b: GND                                                    b: GND
+
+       X8/M0(44.775,0.905)  MN(N_12_LLRVT)                       XI2/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X8/22                                                  d: XI2/XI0/net20
+         b: GND                                                    b: GND
+
+       X7/M25(31.030,1.415)  MP(P_12_LLRVT)                      XI1/XI8/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: VDD                                                    s: VDD
+         d: X7/20                                                  d: XI1/net19
+         b: VDD                                                    b: VDD
+
+       X7/M18(24.500,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X7/11                                                  d: XI1/net22
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X7/M15(22.045,1.415)  MP(P_12_LLRVT)                      XI1/XI0/MPM2  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X7/8                                                   d: XI1/net23
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X7/M10(31.030,0.905)  MN(N_12_LLRVT)                      XI1/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X7/20                                                  d: XI1/net19
+         b: GND                                                    b: GND
+
+       X7/M0(22.045,0.905)  MN(N_12_LLRVT)                       XI1/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X7/22                                                  d: XI1/XI0/net20
+         b: GND                                                    b: GND
+
+       X6/M25(11.245,1.415)  MP(P_12_LLRVT)                      XI0/XI8/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: VDD                                                    s: VDD
+         d: X6/20                                                  d: XI0/net19
+         b: VDD                                                    b: VDD
+
+       X6/M18(4.715,1.415)  MP(P_12_LLRVT)                       XI0/XI1/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X6/11                                                  d: XI0/net22
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X6/M15(2.260,1.415)  MP(P_12_LLRVT)                       XI0/XI0/MPM2  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X6/8                                                   d: XI0/net23
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X6/M10(11.245,0.905)  MN(N_12_LLRVT)                      XI0/XI8/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X6/20                                                  d: XI0/net19
+         b: GND                                                    b: GND
+
+       X6/M0(2.260,0.905)  MN(N_12_LLRVT)                        XI0/XI0/MNM2  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: GND                                                    s: GND
+         d: X6/22                                                  d: XI0/XI0/net20
+         b: GND                                                    b: GND
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net C_MSB                                                 C_MSB
+       --- 8 Connections On This Net ---                         --- 8 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X8/M5(48.185,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM0  MN(N_12_LLRVT)
+         s: X8/25                                                  s: XI2/XI1/net21
+         d: X8/11                                                  d: XI2/net22
+         b: GND                                                    b: GND
+         g: C_MSB                                                  ** C_MSB **
+         ** CLK **                                                 g: CLK
+
+       X8/M3(47.230,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X8/24                                                  d: XI2/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** C_MSB **                                               g: C_MSB
+
+
+       --- Correct Devices On This Net ---
+
+       (cell ports)                                              (cell ports)
+         VDD: VDD                                                  VDD: VDD
+         GND: GND                                                  GND: GND
+         CLK: CLK                                                  CLK: CLK
+         B: B                                                      B: B
+         A_LSB: A_LSB                                              A_LSB: A_LSB
+         C_MSB: C_MSB                                              C_MSB: C_MSB
+
+       X8/M28(61.865,1.525)  MP(P_12_LLRVT)                      XI2/XI11/XI1/MPM0  MP(P_12_LLRVT)
+         g: C_MSB                                                  g: C_MSB
+         s: 5                                                      d: net8
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X8/M27(60.870,1.525)  MP(P_12_LLRVT)                      XI2/XI11/XI0/MPM1  MP(P_12_LLRVT)
+         g: 5                                                      g: net8
+         s: VDD                                                    s: VDD
+         d: C_MSB                                                  d: C_MSB
+         b: VDD                                                    b: VDD
+
+       X8/M26(60.610,1.525)  MP(P_12_LLRVT)                      XI2/XI11/XI0/MPM0  MP(P_12_LLRVT)
+         g: X8/12                                                  g: XI2/net21
+         s: C_MSB                                                  d: C_MSB
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X8/M20(48.185,1.415)  MP(P_12_LLRVT)                      XI2/XI1/MPM2  MP(P_12_LLRVT)
+         g: C_MSB                                                  g: C_MSB
+         s: VDD                                                    s: VDD
+         d: X8/11                                                  d: XI2/net22
+         b: VDD                                                    b: VDD
+
+       X8/M13(61.865,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI1/MNM0  MN(N_12_LLRVT)
+         g: C_MSB                                                  g: C_MSB
+         s: GND                                                    s: GND
+         d: X8/29                                                  d: XI2/XI11/XI1/net17
+         b: GND                                                    b: GND
+
+       X8/M12(60.870,0.905)  MN(N_12_LLRVT)                      XI2/XI11/XI0/MNM1  MN(N_12_LLRVT)
+         g: 5                                                      g: net8
+         s: X8/28                                                  s: XI2/XI11/XI0/net17
+         d: C_MSB                                                  d: C_MSB
+         b: GND                                                    b: GND
+
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X7/11                                                 XI1/net22
+       --- 6 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+
+       --- Incorrect Devices On This Net ---
+
+       X7/M5(25.455,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM2  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: X7/25                                                  d: XI1/XI1/net20
+         b: GND                                                    b: GND
+         d: X7/11                                                  ** XI1/net22 **
+         ** GND **                                                 s: GND
+
+       X7/M3(24.500,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: X7/24                                                  s: XI1/XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** X7/11 **                                               d: XI1/net22
+
+
+       --- Correct Devices On This Net ---
+
+       X7/M24(28.760,1.525)  MP(P_12_LLRVT)                      XI1/XI10/XI1/MPM1  MP(P_12_LLRVT)
+         g: X7/11                                                  g: XI1/net22
+         s: VDD                                                    s: VDD
+         d: X7/9                                                   d: XI1/net15
+         b: VDD                                                    b: VDD
+
+       X7/M20(25.455,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM2  MP(P_12_LLRVT)
+         g: B                                                      g: B
+         s: VDD                                                    s: VDD
+         d: X7/11                                                  d: XI1/net22
+         b: VDD                                                    b: VDD
+
+       X7/M19(24.760,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM1  MP(P_12_LLRVT)
+         g: A_LSB                                                  g: A_LSB
+         s: VDD                                                    s: VDD
+         d: X7/11                                                  d: XI1/net22
+         b: VDD                                                    b: VDD
+
+       X7/M18(24.500,1.415)  MP(P_12_LLRVT)                      XI1/XI1/MPM0  MP(P_12_LLRVT)
+         g: CLK                                                    g: CLK
+         s: X7/11                                                  d: XI1/net22
+         d: VDD                                                    s: VDD
+         b: VDD                                                    b: VDD
+
+       X7/M9(28.760,0.905)  MN(N_12_LLRVT)                       XI1/XI10/XI1/MNM1  MN(N_12_LLRVT)
+         g: X7/11                                                  g: XI1/net22
+         s: X7/27                                                  s: XI1/XI10/XI1/net17
+         d: X7/9                                                   d: XI1/net15
+         b: GND                                                    b: GND
+
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               6          6            0            0
+
+   Nets:               63         63            0            0
+
+   Instances:          60         60            0            0    MN(N_12_LLRVT)
+                       60         60            0            0    MP(P_12_LLRVT)
+                  -------    -------    ---------    ---------
+   Total Inst:        120        120            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD GND A_LSB B CLK C_MSB
+
+
+o Voltage Names Matched by Wildcard:
+
+   Power Names from Layout:
+
+                 VDD
+
+   Ground Names from Layout:
+
+                 GND
+
+   Power Names from Source:
+
+                 VDD
+
+   Ground Names from Source:
+
+                 GND
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       M0(41.430,0.905)  MN(N_12_LLRVT)                          XI3/MNM1  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: 15                                                     d: XI3/net23
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** B **                                                   g: B
+
+--------------------------------------------------------------------------------------------------------------
+
+       M1(41.690,0.905)  MN(N_12_LLRVT)                          XI3/MNM0  MN(N_12_LLRVT)
+         s: 15                                                     s: XI3/net23
+         d: 3                                                      d: XI3/net15
+         b: GND                                                    b: GND
+         g: B                                                      ** B **
+         ** A_LSB **                                               g: A_LSB
+
+--------------------------------------------------------------------------------------------------------------
+
+       X6/M3(4.715,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X6/24                                                  d: XI0/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** A_LSB **                                               g: A_LSB
+
+--------------------------------------------------------------------------------------------------------------
+
+       X6/M5(5.670,0.905)  MN(N_12_LLRVT)                        XI0/XI1/MNM0  MN(N_12_LLRVT)
+         s: X6/25                                                  s: XI0/XI1/net21
+         d: X6/11                                                  d: XI0/net22
+         b: GND                                                    b: GND
+         g: A_LSB                                                  ** A_LSB **
+         ** CLK **                                                 g: CLK
+
+--------------------------------------------------------------------------------------------------------------
+
+       X7/M3(24.500,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM0  MN(N_12_LLRVT)
+         g: CLK                                                    g: CLK
+         d: X7/24                                                  s: XI1/XI1/net21
+         b: GND                                                    b: GND
+         s: GND                                                    ** GND **
+         ** X7/11 **                                               d: XI1/net22
+
+--------------------------------------------------------------------------------------------------------------
+
+       X7/M5(25.455,0.905)  MN(N_12_LLRVT)                       XI1/XI1/MNM2  MN(N_12_LLRVT)
+         g: B                                                      g: B
+         s: X7/25                                                  d: XI1/XI1/net20
+         b: GND                                                    b: GND
+         d: X7/11                                                  ** XI1/net22 **
+         ** GND **                                                 s: GND
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/M3(47.230,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM2  MN(N_12_LLRVT)
+         s: GND                                                    s: GND
+         d: X8/24                                                  d: XI2/XI1/net20
+         b: GND                                                    b: GND
+         g: CLK                                                    ** CLK **
+         ** C_MSB **                                               g: C_MSB
+
+--------------------------------------------------------------------------------------------------------------
+
+       X8/M5(48.185,0.905)  MN(N_12_LLRVT)                       XI2/XI1/MNM0  MN(N_12_LLRVT)
+         s: X8/25                                                  s: XI2/XI1/net21
+         d: X8/11                                                  d: XI2/net22
+         b: GND                                                    b: GND
+         g: C_MSB                                                  ** C_MSB **
+         ** CLK **                                                 g: CLK
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      1 sec
+Total Elapsed Time:  2 sec
